@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* Dark forest green / lime green brand palette for James Waters Gardening Services */
+  --color-brand-50: #eaf4e8;
+  --color-brand-100: #c8e6c2;
+  --color-brand-500: #a4cf2c;
+  --color-brand-600: #8db523;
+  --color-brand-700: #0b3d17;
+  --color-grey-brand: #808285;
+  --color-ink: #1f2328;
+  --color-ink-soft: #4b5057;
+  --color-surface: #f5f6f7;
+  --color-line: #e3e5e7;
+  --color-dark: #0b3d17;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}

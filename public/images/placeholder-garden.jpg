@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#eaf4e8"/>
+  <rect x="340" y="250" width="120" height="100" rx="8" fill="#c8e6c2"/>
+  <circle cx="400" cy="220" r="40" fill="#c8e6c2"/>
+  <text x="400" y="390" font-family="system-ui,sans-serif" font-size="20" fill="#4b5057" text-anchor="middle">Photo coming soon</text>
+</svg>
