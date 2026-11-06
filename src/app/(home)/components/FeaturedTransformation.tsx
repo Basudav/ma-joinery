@@ -1,10 +1,10 @@
 import { BeforeAfterSlider } from "@/components/shared/BeforeAfterSlider";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
+import { getCloudinaryUrl } from "@/lib/cloudinary";
 
-// TODO: Replace placeholder before/after images with real photos of James's work.
-const BEFORE_SRC = "/images/placeholder-garden.jpg";
-const AFTER_SRC = "/images/placeholder-garden.jpg";
+const BEFORE_SRC = getCloudinaryUrl("james-waters/featured/before", { width: 1200, crop: "fill" });
+const AFTER_SRC = getCloudinaryUrl("james-waters/featured/after", { width: 1200, crop: "fill" });
 
 export function FeaturedTransformation() {
   return (
